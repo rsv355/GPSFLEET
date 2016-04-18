@@ -11,7 +11,6 @@ import com.viksaa.sssplash.lib.model.ConfigSplash;
 
 public class SplashActivity extends AwesomeSplash {
 
-
     @Override
     public void initSplash(ConfigSplash configSplash) {
 

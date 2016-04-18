@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">GPS FLEET</string>
+    <string name="google_maps_key">AIzaSyCuVupydSGyh9MkRtpJm5hCyf0LSBWRjfA</string>
 </resources>

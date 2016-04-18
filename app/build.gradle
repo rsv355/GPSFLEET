@@ -30,4 +30,6 @@ dependencies {
 
     //awesome splash
     compile 'com.github.ViksaaSkool:AwesomeSplash:v1.0.0'
+
+    compile 'com.google.android.gms:play-services:8.4.0'
 }
