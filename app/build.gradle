@@ -6,7 +6,7 @@ android {
 
     defaultConfig {
         applicationId "com.bjwirelesswired.gpsfleet"
-        minSdkVersion 15
+        minSdkVersion 9
         targetSdkVersion 23
         versionCode 1
         versionName "1.0"
@@ -29,7 +29,7 @@ dependencies {
     compile 'com.android.support:appcompat-v7:23.3.0'
 
     //awesome splash
-    compile 'com.github.ViksaaSkool:AwesomeSplash:v1.0.0'
+   // compile 'com.github.ViksaaSkool:AwesomeSplash:v1.0.0'
 
     compile 'com.google.android.gms:play-services:8.4.0'
 }
