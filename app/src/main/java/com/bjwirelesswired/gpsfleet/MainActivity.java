@@ -70,6 +70,12 @@ public class MainActivity extends AppCompatActivity implements
 
     }
 
+    @Override
+    public void onLowMemory() {
+        super.onLowMemory();
+        System.gc();
+    }
+
     private void initilizeMap() {
         if (googleMap == null) {
             googleMap = ((MapFragment) getFragmentManager().findFragmentById(
