@@ -84,7 +84,7 @@ public class MainActivity extends AppCompatActivity implements
             // create marker
             MarkerOptions marker = new MarkerOptions().position(new LatLng(currentLatitude, currentLongitude));
             // GREEN color icon
-            marker.icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN));
+            //marker.icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN));
 
             CameraPosition cameraPosition = new CameraPosition.Builder().target(
                     new LatLng(currentLatitude, currentLongitude)).zoom(8).build();
@@ -94,7 +94,7 @@ public class MainActivity extends AppCompatActivity implements
             googleMap.addMarker(marker);
 
             googleMap.getUiSettings().setZoomControlsEnabled(true);
-            googleMap.getUiSettings().setRotateGesturesEnabled(true);
+           // googleMap.getUiSettings().setRotateGesturesEnabled(true);
 
             // check if map is created successfully or not
             if (googleMap == null) {
